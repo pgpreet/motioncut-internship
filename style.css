@@ -1,0 +1,144 @@
+.nav{
+    background-color:black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navlist{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    
+    
+
+}
+
+.border{
+    border: 2px solid transparent;
+    color: white;
+}
+
+.border:hover{
+
+    border-color:white;
+    cursor: pointer;
+    padding: 5px;
+
+}
+.content{
+    height: 600px;
+    display: flex;
+    justify-content:space-evenly ;
+}
+.box1{
+    height: 350px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: large;
+    background-color: green;
+    
+    
+}
+
+.box2{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: large;
+    background-color: purple;
+    
+}
+
+
+.box3{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: large;
+    background-color: red;
+    
+}
+
+.box1:hover{
+ transition: all 1s ease-in-out 0s;
+ height: 370px;
+ width: 330px;
+ 
+}
+
+.box2:hover{
+    transition: all 1s ease-in-out 0s;
+    height: 370px;
+    width: 330px;
+    
+   }
+
+   .box3:hover{
+    transition: all 1s ease-in-out 0s;
+    height: 370px;
+    width: 330px;
+    
+   }
+   .innerbox2 h1{
+    display: flex;
+    justify-content: center;
+
+
+   }
+   .innerbox3 h1{
+    display: flex;
+    justify-content: center;
+
+
+   }
+   .innerbox h1{
+    display: flex;
+    justify-content: center;
+
+
+   }
+   .innerbox h3{
+    display: flex;
+    justify-content: center;
+   }
+   .innerbox2 h3{
+    display: flex;
+    justify-content: center;
+   }
+   .innerbox3 h3{
+    display: flex;
+    justify-content: center;
+   }
+    .inputvalue{
+    display: flex;
+    justify-content: center;
+   }
+   footer{
+    text-align: center;
+    margin-top: -100px;
+    background-color: aqua;
+    
+   }
+   body{
+     background-image: url('index.jpg');
+   }
+  
+
+
+
+
+
+   
+   
+   
+   
